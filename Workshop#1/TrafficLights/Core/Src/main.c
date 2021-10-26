@@ -194,7 +194,6 @@ void normalStateTRL() //TRL - traffic lights
 	HAL_GPIO_WritePin(GPIOD, ledORANGE_Pin, GPIO_PIN_SET);
 	HAL_Delay(3000);
 	HAL_GPIO_WritePin(GPIOD, ledRED_Pin | ledORANGE_Pin, GPIO_PIN_RESET);
-	//HAL_GPIO_WritePin(GPIOD, ledORANGE_Pin, GPIO_PIN_RESET);
 	HAL_GPIO_WritePin(GPIOD, ledGREEN_Pin, GPIO_PIN_SET);
 	HAL_Delay(6000);
 	HAL_GPIO_WritePin(GPIOD, ledGREEN_Pin, GPIO_PIN_RESET);
