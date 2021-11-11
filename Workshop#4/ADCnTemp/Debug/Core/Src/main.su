@@ -1,0 +1,13 @@
+main.c:85:6:HAL_ADC_ConvCpltCallback	16	static
+main.c:93:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:106:5:main	8	static
+main.c:207:6:SystemClock_Config	88	static
+main.c:246:13:MX_ADC1_Init	56	static
+main.c:321:13:MX_TIM3_Init	48	static
+main.c:370:13:MX_TIM4_Init	48	static
+main.c:427:13:MX_GPIO_Init	56	static
+main.c:466:6:printTempLCD	8	static
+main.c:487:10:calcCPU	24	static
+main.c:504:8:calcTempEXT	16	static
+main.c:521:6:setTimARR	16	static
+main.c:535:6:Error_Handler	4	static,ignoring_inline_asm
