@@ -1,0 +1,10 @@
+main.c:108:5:main	16	static,ignoring_inline_asm
+main.c:203:6:SystemClock_Config	88	static
+main.c:243:13:MX_ADC1_Init	56	static
+main.c:309:13:MX_USART3_UART_Init	8	static
+main.c:342:13:MX_GPIO_Init	48	static
+main.c:392:6:printDataLCD	16	static
+main.c:424:7:calcTempEXT	16	static
+main.c:441:6:sendState	64	static
+main.c:448:6:HAL_GPIO_EXTI_Callback	16	static,ignoring_inline_asm
+main.c:478:6:Error_Handler	4	static,ignoring_inline_asm
