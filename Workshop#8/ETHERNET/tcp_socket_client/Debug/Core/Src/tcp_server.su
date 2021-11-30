@@ -1,0 +1,3 @@
+tcp_server.c:49:12:tcpServerInit	8	static
+tcp_server.c:85:6:StartTcpServerTask	32	static
+tcp_server.c:144:6:ServerThread	32	static

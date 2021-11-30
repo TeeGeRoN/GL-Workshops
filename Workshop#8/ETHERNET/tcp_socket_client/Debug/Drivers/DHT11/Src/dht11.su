@@ -1,0 +1,9 @@
+dht11.c:34:14:dht11_set_callbacks	24	static
+dht11.c:63:14:dht11_init	32	static
+dht11.c:96:13:wait_while_status	32	static
+dht11.c:108:20:start_condition	16	static
+dht11.c:119:20:read_acknowledge	16	static
+dht11.c:126:20:read_data_byte	24	static
+dht11.c:149:16:calc_crc	24	static
+dht11.c:159:14:dht11_read	40	static
+dht11.c:195:14:dht11_to_str	32	static
