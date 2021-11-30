@@ -79,8 +79,8 @@ all: main-build
 main-build: tcp_socket_client.elf secondary-outputs
 
 # Tool invocations
-tcp_socket_client.elf: $(OBJS) $(USER_OBJS) /home/teegeron/Стільниця/GL_Ethernet/GL-ESK-ETHERNET/tcp_socket_client/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "tcp_socket_client.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/teegeron/Стільниця/GL_Ethernet/GL-ESK-ETHERNET/tcp_socket_client/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tcp_socket_client.map" -Wl,--gc-sections -static -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+tcp_socket_client.elf: $(OBJS) $(USER_OBJS) /home/teegeron/Стільниця/Workshops\ GL/Workshop8/ETHERNET/tcp_socket_client/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "tcp_socket_client.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/teegeron/Стільниця/Workshops GL/Workshop8/ETHERNET/tcp_socket_client/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="tcp_socket_client.map" -Wl,--gc-sections -static -u_printf_float --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
