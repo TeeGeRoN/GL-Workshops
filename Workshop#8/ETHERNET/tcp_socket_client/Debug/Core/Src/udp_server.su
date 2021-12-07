@@ -1,0 +1,9 @@
+udp_server.c:67:6:ReadPin	16	static
+udp_server.c:72:12:udpServerInit	24	static
+udp_server.c:113:24:led_command_handler	32	static
+udp_server.c:158:24:gpio_command_handler	40	static
+udp_server.c:198:24:pwm_command_handler	56	static
+udp_server.c:246:6:led_data	40	static
+udp_server.c:274:6:gpio_data	64	static
+udp_server.c:306:6:pwm_data	208	static
+udp_server.c:337:6:StartUdpServerTask	120	static

@@ -1,0 +1,10 @@
+lcd.c:22:13:DB4_write	16	static
+lcd.c:34:13:DB5_write	16	static
+lcd.c:46:13:DB6_write	16	static
+lcd.c:58:13:DB7_write	16	static
+lcd.c:70:20:lcd_clock	8	static
+lcd.c:87:13:lcd_bus_write	24	static
+lcd.c:104:6:lcd_command_set	16	static
+lcd.c:113:6:lcd_init	8	static
+lcd.c:139:6:lcd_putchar	16	static
+lcd.c:150:6:lcd_puts	24	static

@@ -1,0 +1,5 @@
+dht11_stm32.c:31:13:HAL_init_read_pin	40	static
+dht11_stm32.c:40:13:HAL_init_write_pin	40	static
+dht11_stm32.c:50:13:HAL_read_pin	16	static
+dht11_stm32.c:55:13:HAL_write_pin	16	static
+dht11_stm32.c:60:14:dht11_stm32_init	40	static

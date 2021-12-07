@@ -1,0 +1,7 @@
+stm32f4_discovery.c:142:10:BSP_GetVersion	4	static
+stm32f4_discovery.c:156:6:BSP_LED_Init	56	static
+stm32f4_discovery.c:183:6:BSP_LED_On	16	static
+stm32f4_discovery.c:197:6:BSP_LED_Off	16	static
+stm32f4_discovery.c:211:6:BSP_LED_Toggle	16	static
+stm32f4_discovery.c:234:6:BSP_PB_Init	40	static
+stm32f4_discovery.c:273:10:BSP_PB_GetState	16	static

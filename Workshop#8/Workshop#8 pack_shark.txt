@@ -1,0 +1,328 @@
+No.     Time           Source                Destination           Protocol Length Info
+    690 212.642892160  10.10.10.106          10.10.10.108          UDP      50     60264 → 5678 Len=8
+
+Frame 690: 50 bytes on wire (400 bits), 50 bytes captured (400 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 60264, Dst Port: 5678
+Data (8 bytes)
+
+0000  6c 65 64 33 20 6f 6e 0a                           led3 on.
+
+No.     Time           Source                Destination           Protocol Length Info
+    693 213.444634237  10.10.10.108          10.10.10.106          UDP      60     5678 → 60264 Len=4
+
+Frame 693: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 5678, Dst Port: 60264
+Data (4 bytes)
+
+0000  4f 4b 0a 00                                       OK..
+
+No.     Time           Source                Destination           Protocol Length Info
+    740 233.085332576  10.10.10.106          10.10.10.108          UDP      54     60264 → 5678 Len=12
+
+Frame 740: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 60264, Dst Port: 5678
+Data (12 bytes)
+
+0000  6c 65 64 35 20 74 6f 67 67 6c 65 0a               led5 toggle.
+
+No.     Time           Source                Destination           Protocol Length Info
+    741 233.582966128  10.10.10.108          10.10.10.106          UDP      60     5678 → 60264 Len=4
+
+Frame 741: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 5678, Dst Port: 60264
+Data (4 bytes)
+
+0000  4f 4b 0a 00                                       OK..
+
+No.     Time           Source                Destination           Protocol Length Info
+    954 299.554351706  10.10.10.106          10.10.10.108          UDP      56     34941 → 1234 Len=14
+
+Frame 954: 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 34941, Dst Port: 1234
+Data (14 bytes)
+
+0000  72 65 61 64 20 67 70 69 6f 64 20 31 32 0a         read gpiod 12.
+
+No.     Time           Source                Destination           Protocol Length Info
+    955 300.113924402  10.10.10.108          10.10.10.106          UDP      60     1234 → 34941 Len=11
+
+Frame 955: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 1234, Dst Port: 34941
+Data (11 bytes)
+
+0000  47 50 49 4f 44 2e 31 32 3d 30 0a                  GPIOD.12=0.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1018 315.202857797  10.10.10.106          10.10.10.108          UDP      56     34941 → 1234 Len=14
+
+Frame 1018: 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 34941, Dst Port: 1234
+Data (14 bytes)
+
+0000  72 65 61 64 20 67 70 69 6f 64 20 31 34 0a         read gpiod 14.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1019 315.211383876  10.10.10.108          10.10.10.106          UDP      60     1234 → 34941 Len=11
+
+Frame 1019: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 1234, Dst Port: 34941
+Data (11 bytes)
+
+0000  47 50 49 4f 44 2e 31 34 3d 31 0a                  GPIOD.14=1.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1042 333.348483272  10.10.10.106          10.10.10.108          UDP      47     34941 → 1234 Len=5
+
+Frame 1042: 47 bytes on wire (376 bits), 47 bytes captured (376 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 34941, Dst Port: 1234
+Data (5 bytes)
+
+0000  72 74 72 74 0a                                    rtrt.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1043 335.378754267  10.10.10.108          10.10.10.106          UDP      60     1234 → 34941 Len=7
+
+Frame 1043: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 1234, Dst Port: 34941
+Data (7 bytes)
+
+0000  65 72 72 6f 72 0a 00                              error..
+
+No.     Time           Source                Destination           Protocol Length Info
+   1150 356.160551356  10.10.10.106          10.10.10.108          UDP      56     34941 → 1234 Len=14
+
+Frame 1150: 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 34941, Dst Port: 1234
+Data (14 bytes)
+
+0000  72 65 61 64 20 67 70 69 6f 64 20 31 36 0a         read gpiod 16.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1151 356.170051601  10.10.10.108          10.10.10.106          UDP      60     1234 → 34941 Len=7
+
+Frame 1151: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 1234, Dst Port: 34941
+Data (7 bytes)
+
+0000  65 72 72 6f 72 0a 00                              error..
+
+No.     Time           Source                Destination           Protocol Length Info
+   1368 418.786190723  10.10.10.106          10.10.10.108          UDP      49     45580 → 9999 Len=7
+
+Frame 1368: 49 bytes on wire (392 bits), 49 bytes captured (392 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (7 bytes)
+
+0000  64 66 66 64 64 66 0a                              dffddf.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1377 419.679058790  10.10.10.108          10.10.10.106          UDP      192    9999 → 45580 Len=150
+
+Frame 1377: 192 bytes on wire (1536 bits), 192 bytes captured (1536 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (150 bytes)
+
+0000  45 72 72 6f 72 0a 55 73 65 3a 20 2f 77 72 69 74   Error.Use: /writ
+0010  65 20 6c 65 64 5b 6e 5d 20 5b 76 61 6c 5d 20 6f   e led[n] [val] o
+0020  72 20 2f 72 65 61 64 20 6c 65 64 5b 6e 5d 0a 57   r /read led[n].W
+0030  68 65 72 65 3a 0a 09 2d 5b 6e 5d 20 69 73 20 6e   here:..-[n] is n
+0040  75 6d 62 65 72 20 6f 66 20 6c 65 64 28 31 2d 31   umber of led(1-1
+0050  36 29 0a 09 2d 5b 76 61 6c 5d 20 69 73 20 70 77   6)..-[val] is pw
+0060  6d 20 76 61 6c 75 65 28 30 2d 34 30 39 35 29 0a   m value(0-4095).
+0070  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090  00 00 00 00 00 00                                 ......
+
+No.     Time           Source                Destination           Protocol Length Info
+   1459 435.613063269  10.10.10.106          10.10.10.108          UDP      59     45580 → 9999 Len=17
+
+Frame 1459: 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (17 bytes)
+
+0000  2f 77 72 69 74 65 20 6c 65 64 31 20 31 30 30 30   /write led1 1000
+0010  0a                                                .
+
+No.     Time           Source                Destination           Protocol Length Info
+   1460 436.865410089  10.10.10.108          10.10.10.106          UDP      79     9999 → 45580 Len=37
+
+Frame 1460: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (37 bytes)
+
+0000  50 57 4d 20 66 6f 72 20 6c 65 64 31 20 73 75 63   PWM for led1 suc
+0010  63 65 73 73 66 75 6c 6c 79 20 69 6e 73 74 61 6c   cessfully instal
+0020  6c 65 64 2e 0a                                    led..
+
+No.     Time           Source                Destination           Protocol Length Info
+   1490 459.272448861  10.10.10.106          10.10.10.108          UDP      59     45580 → 9999 Len=17
+
+Frame 1490: 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (17 bytes)
+
+0000  2f 77 72 69 74 65 20 6c 65 64 35 20 33 30 30 30   /write led5 3000
+0010  0a                                                .
+
+No.     Time           Source                Destination           Protocol Length Info
+   1491 460.099010583  10.10.10.108          10.10.10.106          UDP      79     9999 → 45580 Len=37
+
+Frame 1491: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (37 bytes)
+
+0000  50 57 4d 20 66 6f 72 20 6c 65 64 35 20 73 75 63   PWM for led5 suc
+0010  63 65 73 73 66 75 6c 6c 79 20 69 6e 73 74 61 6c   cessfully instal
+0020  6c 65 64 2e 0a                                    led..
+
+No.     Time           Source                Destination           Protocol Length Info
+   1622 478.176455774  10.10.10.106          10.10.10.108          UDP      58     45580 → 9999 Len=16
+
+Frame 1622: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (16 bytes)
+
+0000  2f 77 72 69 74 65 20 6c 65 64 31 36 20 35 30 0a   /write led16 50.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1623 478.230600327  10.10.10.108          10.10.10.106          UDP      80     9999 → 45580 Len=38
+
+Frame 1623: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (38 bytes)
+
+0000  50 57 4d 20 66 6f 72 20 6c 65 64 31 36 20 73 75   PWM for led16 su
+0010  63 63 65 73 73 66 75 6c 6c 79 20 69 6e 73 74 61   ccessfully insta
+0020  6c 6c 65 64 2e 0a                                 lled..
+
+No.     Time           Source                Destination           Protocol Length Info
+   1662 492.168113005  10.10.10.106          10.10.10.108          UDP      53     45580 → 9999 Len=11
+
+Frame 1662: 53 bytes on wire (424 bits), 53 bytes captured (424 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (11 bytes)
+
+0000  2f 72 65 61 64 20 6c 65 64 31 0a                  /read led1.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1663 492.348516257  10.10.10.108          10.10.10.106          UDP      61     9999 → 45580 Len=19
+
+Frame 1663: 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (19 bytes)
+
+0000  50 57 4d 20 6f 6e 20 6c 65 64 31 20 3d 20 31 30   PWM on led1 = 10
+0010  30 30 0a                                          00.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1675 502.656958598  10.10.10.106          10.10.10.108          UDP      53     45580 → 9999 Len=11
+
+Frame 1675: 53 bytes on wire (424 bits), 53 bytes captured (424 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (11 bytes)
+
+0000  2f 72 65 61 64 20 6c 65 64 32 0a                  /read led2.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1676 503.444841850  10.10.10.108          10.10.10.106          UDP      60     9999 → 45580 Len=16
+
+Frame 1676: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (16 bytes)
+
+0000  50 57 4d 20 6f 6e 20 6c 65 64 32 20 3d 20 30 0a   PWM on led2 = 0.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1694 516.525745280  10.10.10.106          10.10.10.108          UDP      58     45580 → 9999 Len=16
+
+Frame 1694: 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (16 bytes)
+
+0000  2f 77 72 69 74 65 20 6c 65 64 32 20 36 30 30 0a   /write led2 600.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1701 517.607497952  10.10.10.108          10.10.10.106          UDP      79     9999 → 45580 Len=37
+
+Frame 1701: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (37 bytes)
+
+0000  50 57 4d 20 66 6f 72 20 6c 65 64 32 20 73 75 63   PWM for led2 suc
+0010  63 65 73 73 66 75 6c 6c 79 20 69 6e 73 74 61 6c   cessfully instal
+0020  6c 65 64 2e 0a                                    led..
+
+No.     Time           Source                Destination           Protocol Length Info
+   1754 522.555548788  10.10.10.106          10.10.10.108          UDP      53     45580 → 9999 Len=11
+
+Frame 1754: 53 bytes on wire (424 bits), 53 bytes captured (424 bits) on interface wlp3s0, id 0
+Ethernet II, Src: IntelCor_dd:27:91 (c4:d9:87:dd:27:91), Dst: 10:55:03:00:44:12 (10:55:03:00:44:12)
+Internet Protocol Version 4, Src: 10.10.10.106, Dst: 10.10.10.108
+User Datagram Protocol, Src Port: 45580, Dst Port: 9999
+Data (11 bytes)
+
+0000  2f 72 65 61 64 20 6c 65 64 32 0a                  /read led2.
+
+No.     Time           Source                Destination           Protocol Length Info
+   1755 522.655674031  10.10.10.108          10.10.10.106          UDP      60     9999 → 45580 Len=18
+
+Frame 1755: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface wlp3s0, id 0
+Ethernet II, Src: 10:55:03:00:44:12 (10:55:03:00:44:12), Dst: IntelCor_dd:27:91 (c4:d9:87:dd:27:91)
+Internet Protocol Version 4, Src: 10.10.10.108, Dst: 10.10.10.106
+User Datagram Protocol, Src Port: 9999, Dst Port: 45580
+Data (18 bytes)
+
+0000  50 57 4d 20 6f 6e 20 6c 65 64 32 20 3d 20 36 30   PWM on led2 = 60
+0010  30 0a                                             0.

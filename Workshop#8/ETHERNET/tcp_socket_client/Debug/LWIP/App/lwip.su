@@ -1,0 +1,2 @@
+lwip.c:51:28:lwip_get_netif	4	static
+lwip.c:60:6:MX_LWIP_Init	56	static

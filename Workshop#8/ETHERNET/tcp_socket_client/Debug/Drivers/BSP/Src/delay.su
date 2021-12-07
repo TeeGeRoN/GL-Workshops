@@ -1,0 +1,6 @@
+delay.c:3:6:DWT_Init	4	static
+delay.c:10:6:DWT_Delay	32	static
+delay.c:16:10:DWT_GetCycles	4	static
+delay.c:21:9:DWT_Cycles_to_us	24	static
+delay.c:27:6:delay_us	16	static
+delay.c:32:6:delay_ms	16	static
